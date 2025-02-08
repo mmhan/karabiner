@@ -1,1 +1,5 @@
 node_modules
+.idea
+.yarn
+.yarnrc.yml
+automatic_backups

@@ -13,5 +13,6 @@
   "scripts": {
     "build": "tsm rules.ts",
     "watch": "nodemon --exec yarn build -e ts"
-  }
+  },
+  "packageManager": "yarn@4.2.2+sha256.1aa43a5304405be7a7cb9cb5de7b97de9c4e8ddd3273e4dad00d6ae3eb39f0ef"
 }
