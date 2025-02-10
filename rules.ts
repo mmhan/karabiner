@@ -79,6 +79,7 @@ const rules: KarabinerRules[] = [
       // r: app("Reflect"),
       f: app("Finder"),
       // "i"Message
+      m: app("Music"),
       i: app("Messages"),
       p: app("PyCharm Professional Edition"),
       w: app("WebStorm"),
