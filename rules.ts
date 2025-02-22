@@ -80,10 +80,11 @@ const rules: KarabinerRules[] = [
       f: app("Finder"),
       // "i"Message
       m: app("Music"),
+      n: app("Obsidian"),
       i: app("Messages"),
       p: app("PyCharm Professional Edition"),
       w: app("WebStorm"),
-      v: app("Visual Studio Code"),
+      v: app("Visual Studio Code - Insiders"),
     },
 
     // TODO: This doesn't quite work yet.
