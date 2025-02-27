@@ -85,6 +85,7 @@ const rules: KarabinerRules[] = [
       p: app("PyCharm Professional Edition"),
       w: app("WebStorm"),
       v: app("Visual Studio Code - Insiders"),
+      c: app("Cursor"),
     },
 
     // TODO: This doesn't quite work yet.
