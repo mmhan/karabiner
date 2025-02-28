@@ -452,12 +452,12 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Open -a 'WebStorm.app'",
+                                "description": "Open -a 'Windsurf.app'",
                                 "from": {
                                     "key_code": "w",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "shell_command": "open -a 'WebStorm.app'" }],
+                                "to": [{ "shell_command": "open -a 'Windsurf.app'" }],
                                 "type": "basic"
                             },
                             {
@@ -490,6 +490,38 @@
                                     "modifiers": { "optional": ["any"] }
                                 },
                                 "to": [{ "shell_command": "open -a 'Cursor.app'" }],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_sublayer_o",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "description": "Open -a 'WebStorm.app'",
+                                "from": {
+                                    "key_code": "b",
+                                    "modifiers": { "optional": ["any"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'WebStorm.app'" }],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_sublayer_o",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "description": "Open -a 'Calendar.app'",
+                                "from": {
+                                    "key_code": "l",
+                                    "modifiers": { "optional": ["any"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'Calendar.app'" }],
                                 "type": "basic"
                             }
                         ]

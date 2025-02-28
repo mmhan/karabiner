@@ -78,14 +78,19 @@ const rules: KarabinerRules[] = [
       // m: app("Reflect"),
       // r: app("Reflect"),
       f: app("Finder"),
-      // "i"Message
       m: app("Music"),
+      // "n" for "Obsidian" note taking app
       n: app("Obsidian"),
+      // "i"Message
       i: app("Messages"),
       p: app("PyCharm Professional Edition"),
-      w: app("WebStorm"),
+      w: app("Windsurf"),
       v: app("Visual Studio Code - Insiders"),
       c: app("Cursor"),
+      // "b" for We"B"Storm
+      b: app("WebStorm"),
+      // Calendar
+      l: app("Calendar"),
     },
 
     // TODO: This doesn't quite work yet.
