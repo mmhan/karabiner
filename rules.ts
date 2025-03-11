@@ -91,6 +91,8 @@ const rules: KarabinerRules[] = [
       b: app("WebStorm"),
       // Calendar
       l: app("Calendar"),
+      // *e*mails
+      e: app("Mail"),
     },
 
     // TODO: This doesn't quite work yet.
