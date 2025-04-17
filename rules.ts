@@ -83,7 +83,7 @@ const rules: KarabinerRules[] = [
       n: app("Obsidian"),
       // "i"Message
       i: app("Messages"),
-      p: app("PyCharm Professional Edition"),
+      p: app("PyCharm"),
       w: app("Windsurf"),
       v: app("Visual Studio Code - Insiders"),
       c: app("Cursor"),
@@ -93,6 +93,7 @@ const rules: KarabinerRules[] = [
       l: app("Calendar"),
       // *e*mails
       e: app("Mail"),
+      x: app("Safari"),
     },
 
     // TODO: This doesn't quite work yet.
