@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import { KarabinerRules } from "./types";
-import { createHyperSubLayers, app, open, rectangle, shell } from "./utils";
+import { createHyperSubLayers, app, open, window, shell } from "./utils";
 
 const rules: KarabinerRules[] = [
   // Define the Hyper key itself
@@ -111,7 +111,7 @@ const rules: KarabinerRules[] = [
     //   `,
     // },
 
-    // w = "Window" via rectangle.app
+    // w = "Window"
     w: {
       semicolon: {
         description: "Window: Hide",
@@ -122,13 +122,13 @@ const rules: KarabinerRules[] = [
           },
         ],
       },
-      y: rectangle("previous-display"),
-      o: rectangle("next-display"),
-      k: rectangle("top-half"),
-      j: rectangle("bottom-half"),
-      h: rectangle("left-half"),
-      l: rectangle("right-half"),
-      f: rectangle("maximize"),
+      y: window("previous-display"),
+      o: window("next-display"),
+      k: window("top-half"),
+      j: window("bottom-half"),
+      h: window("left-half"),
+      l: window("right-half"),
+      f: window("maximize"),
       u: {
         description: "Window: Previous Tab",
         to: [
