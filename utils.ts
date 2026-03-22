@@ -198,7 +198,7 @@ export function window(name: string): LayerCommand {
   return {
     to: [
       {
-        shell_command: `open -g raycast://extensions/raycast/window-management/${name}`,
+        shell_command: `open -g rectangle://execute-action?name=${name}`,
       },
     ],
     description: `Window: ${name}`,

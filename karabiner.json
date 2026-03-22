@@ -555,6 +555,22 @@
                                 },
                                 "to": [{ "shell_command": "open -a 'Safari.app'" }],
                                 "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_sublayer_o",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "description": "Open -a 'RustRover.app'",
+                                "from": {
+                                    "key_code": "r",
+                                    "modifiers": { "optional": ["any"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'RustRover.app'" }],
+                                "type": "basic"
                             }
                         ]
                     },

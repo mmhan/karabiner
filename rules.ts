@@ -93,7 +93,9 @@ const rules: KarabinerRules[] = [
       l: app("Calendar"),
       // *e*mails
       e: app("Mail"),
+      // *X*afari
       x: app("Safari"),
+      r: app("RustRover")
     },
 
     // TODO: This doesn't quite work yet.
