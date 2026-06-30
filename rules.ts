@@ -72,7 +72,7 @@ const rules: KarabinerRules[] = [
     o: {
       a: app("Arc"),
       s: app("Slack"),
-      t: app("WezTerm"),
+      t: app("iTerm2"),
       z: app("zoom.us"),
       // "M"arkdown (Reflect.app)
       // m: app("Reflect"),
