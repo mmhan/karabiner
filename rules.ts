@@ -70,7 +70,7 @@ const rules: KarabinerRules[] = [
     },
     // o = "Open" applications
     o: {
-      a: app("Arc"),
+      a: app("Google Chrome"),
       s: app("Slack"),
       t: app("iTerm"),
       z: app("zoom.us"),
