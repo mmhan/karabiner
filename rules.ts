@@ -114,6 +114,8 @@ const rules: KarabinerRules[] = [
     // },
 
     // w = "Window"
+    /**
+     * Superceded by aerospace
     w: {
       semicolon: {
         description: "Window: Hide",
@@ -178,6 +180,7 @@ const rules: KarabinerRules[] = [
         ],
       },
     },
+    **/
 
     // s = "System"
     s: {
